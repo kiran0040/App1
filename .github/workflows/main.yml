@@ -13,5 +13,5 @@ jobs:
       run:
         echo "this is line no 1"
         echo "this is line no 2"
-        cat courses.html
-        cat index.html
+        run: cat courses.html
+        run: cat index.html
