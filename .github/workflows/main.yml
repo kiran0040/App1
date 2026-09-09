@@ -1,0 +1,18 @@
+name: A workflow for my Hello World file 
+on: push 
+jobs: 
+  build-job: 
+    name: Hello world action 
+    runs-on: ubuntu-latest 
+    steps: 
+    - uses: actions/checkout@v1 
+      name: Check out code 
+    - name: Echo Hello world
+      run: echo Hello World
+    - name: Index.html Content 
+      run:
+        echo "this is line no 1"
+        cat index.html
+        echo "this is line no 2"
+        cat courses.html
+      
