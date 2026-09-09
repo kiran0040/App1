@@ -12,7 +12,6 @@ jobs:
     - name: Index.html Content 
       run:
         echo "this is line no 1"
-        cat index.html
         echo "this is line no 2"
         cat courses.html
-      
+        cat index.html
